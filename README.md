@@ -1,23 +1,26 @@
 # Temperature Converter PWA
 
-This repository contains the source code for a simple Temperature Converter built as a **Progressive Web App (PWA)** using standard web technologies (HTML, CSS, JavaScript) and deployed across multiple platforms as part of **Lab 1: Mobile Application Development**.
+This project is a **Progressive Web App (PWA)** for converting temperatures between **Celsius**, **Fahrenheit**, and **Kelvin**.  
+It is built using **HTML**, **CSS**, and **JavaScript**, demonstrating the fundamentals of offline-capable, installable web applications.
 
-## Project Files
+---
 
-The PWA is comprised of the following files:
+## Project Structure
 
-* **`index.html`**: The main page structure and user interface.
-* **`converter.js`**: The core application logic for temperature conversion (Celsius, Fahrenheit, Kelvin).
-* **`converter.css`**: The styling for the application.
-* **`manifest.json`**: Defines the application metadata (name, icons) to enable installation as a PWA.
-* **`sw.js`**: The Service Worker script that enables offline caching and PWA functionality.
-* **`icon512.png`**: The application icon.
+| File | Description |
+|------|-------------|
+| `index.html` | Main HTML structure and interface for the converter |
+| `converter.js` | Handles temperature conversion logic |
+| `converter.css` | Provides styling for the user interface |
+| `manifest.json` | Defines the app metadata, icons, and name for PWA support |
+| `sw.js` | Service Worker enabling offline use and caching |
+| `icon512.png` | Application icon for installation and display |
 
-## Live Deployments
+---
 
-The application has been deployed to demonstrate familiarity with different hosting environments.
+## Features
 
-
-### PythonAnywhere
-
-* **Live Link:** https://askal.pythonanywhere.com/
+- Converts between **Celsius**, **Fahrenheit**, and **Kelvin**
+- Works **offline** using a Service Worker
+- **Installable** as a PWA on desktop and mobile devices
+- Lightweight and responsive design
